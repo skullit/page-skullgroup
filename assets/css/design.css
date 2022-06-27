@@ -1,0 +1,31 @@
+:root {
+    --skullwhite: white;
+    --skullred: #c4191c;
+    --skullgrey: #727d8b;
+    --skullblack: #242426;
+}
+
+.skullgroup {
+    background-color: var(--skullgrey);
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.skullserver {
+    background-color: var(--skullwhite);
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.skullit {
+    background-color: var(--skullgrey);
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.skullgroup img, .skullit img, .skullserver img {
+    height: auto; 
+    width: auto; 
+    max-height: 50px;
+}
+
